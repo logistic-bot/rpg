@@ -1,5 +1,5 @@
 test:
-	@pytest --cov=src --ff tests --durations=2 --cov-report term-missing:skip-covered --suppress-no-test-exit-code --testmon
+	@pytest --cov=src --ff tests --durations=2 --cov-report term-missing:skip-covered --testmon -x
 	@make style
 
 style:
