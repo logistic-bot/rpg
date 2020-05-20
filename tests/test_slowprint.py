@@ -1,6 +1,4 @@
-from unittest.mock import patch
-
-from hypothesis import given, assume, settings, example
+from hypothesis import given, settings, example
 from hypothesis.strategies import text, decimals, integers, booleans
 
 from src.core.utils.slowprint import slowprint
